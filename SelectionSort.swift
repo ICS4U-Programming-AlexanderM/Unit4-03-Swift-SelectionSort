@@ -37,8 +37,8 @@ func sort(listOfNum: [Int]) -> [Int] {
     // section of the array.
     if minIndex != index {
       let temp = listNum[index]
-      listNum[index] = listNum[minIndex];
-      listNum[minIndex] = temp;
+      listNum[index] = listNum[minIndex]
+      listNum[minIndex] = temp
     }
   }
   return listNum
